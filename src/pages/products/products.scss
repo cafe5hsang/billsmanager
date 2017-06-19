@@ -1,0 +1,30 @@
+page-products {
+  .icon-ribble {
+    content: url('../../assets/icon/ribble.png');
+    width: 60px;
+    height: 60px;
+  }
+
+  .products-list {
+
+    h1, p{
+      font-size: 1em;
+    }
+
+    h1 {
+      color: #000;
+      line-height: 240%;
+      font-weight: bold;
+    }
+
+    p {
+      color: map-get($colors, gray);
+      line-height: 120%;
+    }
+    small {
+      color: map-get($colors, gray);
+      font-size: 0.8em;
+      line-height: 280%;
+    }
+  }
+}
